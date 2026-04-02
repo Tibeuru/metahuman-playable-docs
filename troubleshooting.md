@@ -6,6 +6,8 @@
 
 **Solution:** The plugin checks for `Body` and `Face` SkeletalMeshComponents in the Blueprint's Simple Construction Script. Ensure your MetaHuman was imported correctly with these components.
 
+> **\[Screenshot — A valid MetaHuman Blueprint showing Body and Face components in the SCS]**
+
 ## "Playable template not found" notification
 
 **Cause:** The plugin couldn't find a third-person character template.
@@ -47,6 +49,8 @@ If your template is elsewhere, move or duplicate it to one of these paths.
 1. Open the playable Blueprint
 2. Select the `Body` component
 3. Verify `Anim Class` is set to the retargeted AnimBlueprint (`ABP_MHC_<Name>_Unarmed`)
+
+> **\[Screenshot — Body component details panel showing the Anim Class property]**
 
 ## Output File Structure
 

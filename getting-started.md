@@ -4,9 +4,15 @@
 
 Follow these steps to convert a MetaHuman into a playable character.
 
+{% hint style="info" %}
+**\[Video — Full walkthrough of converting a MetaHuman to a playable character from start to finish]**
+{% endhint %}
+
 ## Step 1: Import a MetaHuman
 
 If you haven't already, import a MetaHuman into your project using **Quixel Bridge** or **MetaHuman Creator**.
+
+> **\[Screenshot — Quixel Bridge with a MetaHuman selected for import]**
 
 ## Step 2: Set Up a Template
 
@@ -28,6 +34,8 @@ If you're using the default UE5 Third Person template, the plugin will find it a
 4. In the context menu, find the **MetaHuman** section
 5. Click **"Make Playable Character"**
 
+> **\[Screenshot — Right-click context menu with "Make Playable Character" highlighted]**
+
 ## Step 4: Wait for Processing
 
 The plugin will show a progress dialog as it:
@@ -39,6 +47,8 @@ The plugin will show a progress dialog as it:
 5. Sets up IK Rigs and Control Rigs
 6. Compiles and saves everything
 
+> **\[Screenshot — Progress dialog during conversion]**
+
 ## Step 5: Use Your Playable MetaHuman
 
 Once complete:
@@ -46,3 +56,7 @@ Once complete:
 - The new Blueprint opens automatically in the editor
 - It's saved as `<MetaHumanName>_Playable` next to the original
 - It's ready to drop into your level as a playable character
+
+> **\[Screenshot — The finished playable MetaHuman Blueprint open in the editor]**
+
+> **\[Video — Short clip of the playable MetaHuman running around in-game]**

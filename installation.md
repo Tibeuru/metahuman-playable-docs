@@ -26,9 +26,15 @@ YourProject/
 3. Restart the Unreal Editor
 4. The plugin is **enabled by default**. You can verify in **Edit > Plugins > MetaHuman** category
 
+> **\[Screenshot — Plugins window showing MetaHuman Playable enabled under the MetaHuman category]**
+
 ## Verify Installation
 
 Once installed, you should see:
 
 - A log message: `MetaHumanPlayable plugin loaded` in the Output Log
 - The **"Make Playable Character"** option when right-clicking a MetaHuman Blueprint in the Content Browser
+
+> **\[Screenshot — Output Log showing the plugin loaded message]**
+
+> **\[Screenshot — Content Browser right-click menu showing "Make Playable Character" option]**

@@ -21,6 +21,8 @@ The plugin identifies all visual components from the MetaHuman Blueprint:
 
 These are cloned into the playable character with their full property sets preserved, including materials and mesh references.
 
+> **\[Screenshot — MetaHuman Blueprint component list showing Body, Face, Hair, and groom components]**
+
 ## Component Hierarchy
 
 The playable character uses this component hierarchy:
@@ -39,6 +41,8 @@ CharacterMesh0 (native UE mesh — hidden)
 
 The native `CharacterMesh0` is hidden and cleared. The MetaHuman **Body** component becomes the primary visual mesh with animations.
 
+> **\[Screenshot — Playable Blueprint component hierarchy in the editor showing Body > Face > Grooms structure]**
+
 ## Blueprint Logic Transfer
 
 The plugin transfers Blueprint logic from the MetaHuman source:
@@ -47,3 +51,5 @@ The plugin transfers Blueprint logic from the MetaHuman source:
 - **Function Graphs** — Custom functions (excluding EventGraph and ConstructionScript) are cloned
 - **Event Graph Nodes** — Merged into the destination EventGraph with automatic Y-offset to prevent overlap
 - **Construction Script Nodes** — Merged similarly, skipping function entry nodes
+
+> **\[Screenshot — Event Graph showing merged nodes from MetaHuman source]**
